@@ -1,21 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20231229/pngtree-blue-canvas-with-intricate-texture-image_13702749.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  margin: 0;
+  padding: 0; 
+  height: 100vh; 
 }
